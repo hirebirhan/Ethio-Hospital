@@ -1,5 +1,5 @@
 
-export default function OurSpecialists() {
+export default function Specialists() {
     return (
         <div className="flex">
             <div  className=" bg-white p-6 rounded-lg shadow flex flex-col items-center justify-center">

@@ -2,13 +2,18 @@
 
 export default function About(){
     return(
-        <div style={{ backgroundColor: '#dcfce7' }} className=" p-12 rounded-lg shadow flex md:flex-row flex-col items-center" >
-            <div className="flex-1 text-left mb-4 md:mb-0">
-                <h1 className="text-3xl font-bold text-gray-900">Welcome to Ethio Tebib Hospital</h1>
-                <p className="text-gray-700">Ethio Tebib Hospital is dedicated to providing high-quality healthcare services, embracing modern medical technologies, and ensuring compassionate care for all patients. Explore our specialized services, experienced medical professionals, and state-of-the-art facilities.</p>
+    
+        <>
+            <div className="flex flex-col items-center justify-center mt-16">
+                <div style={{ backgroundColor: '#245c6d' }} className="p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+                    <div className="md:w-1/2 md:pl-6">
+                        <h2 className="text-lg font-semibold text-white">Welcome to Ethio Tebib Hospital</h2>
+                        <p className="text-white">Ethio Tebib Hospital is dedicated to providing high-quality healthcare services, embracing modern medical technologies, and ensuring compassionate care for all patients. Explore our specialized services, experienced medical professionals, and state-of-the-art facilities.</p>
+                    </div>
+                </div>
+                <div className="flex-1 w-full h-auto bg-cover bg-center" style={{ backgroundImage: "url('/et3.jpg')", minHeight: '28rem' }}>
+                </div>
             </div>
-            <div className="flex-1 w-full h-auto bg-cover bg-center" style={{ backgroundImage: "url('/et3.jpg')", minHeight: '24rem' }}>
-            </div>
-        </div>
-    )
+        </>
+    );
 }
