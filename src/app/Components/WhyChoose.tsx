@@ -11,7 +11,7 @@ export default function WhyChoose() {
     ];
     return (
         <>
-            <div className="flex flex-col items-center justify-center mt-8">
+            <div className="flex flex-col items-center justify-center mt-4">
                 <div style={{ backgroundColor: '#245c6d' }} className="p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
                     <div className="md:w-1/2 md:pl-6">
                         <h2 className="text-lg font-semibold text-white">Why Choose Ethio-tebib?</h2>
