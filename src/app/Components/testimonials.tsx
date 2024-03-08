@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function Testimonials() {
     return (
-        <div className="min-h-screen bg-cover bg-center" style={{ backgroundColor: '#245c6d' }}>
+        <div className="min-h-screen bg-cover bg-center bg-[#245c6d] " >
             <div className="container mx-auto px-4 py-10">
                 <h1 className="text-4xl font-semibold mb-4 text-yellow-100">
                     <i className="fas fa-users mr-2" ></i>
@@ -20,7 +20,6 @@ export default function Testimonials() {
                                 recently suffered a heart attack and was promptly attended to by Dr.
                                 Dimpu. As a result, Mr. David Rajkumar underwent ....</p></div>
                     </div>
-
                     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
                         <iframe className="w-full" style={{ height: '300px' }} src="https://www.youtube.com/embed/kK99NlPe0-0" title="YouTube video" allowFullScreen></iframe>
                         <div className="p-4">
@@ -34,7 +33,6 @@ export default function Testimonials() {
                             <p className="text-gray-600">More information or description here.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
