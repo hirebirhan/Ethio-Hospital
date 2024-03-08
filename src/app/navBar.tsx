@@ -9,9 +9,8 @@ const Navbar = () => {
                     <div className="flex items-center justify-between h-16">
                         <h1>Ethio-Tebib</h1>
                         <Image src="/ethiotebib.jpg" alt="Ethio-Tebib logo" width={55} height={44} />
-                        <div className="hidden md:flex flex-1 items-center justify-center"> {/* Centered links */}
-                            <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium ">Home</Link>
-                            <Link href="/about" className="px-3 py-2 rounded-md text-sm font-medium ">Our Hospitals</Link>
+                        <div className="hidden md:flex flex-1 items-center justify-center">
+                            <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium ">Hospitals</Link>
                             <Link href="/OurSpecialists" className="px-3 py-2 rounded-md text-sm font-medium">Our Specialists</Link>
                             <Link href="/contact" className="px-3 py-2 rounded-md text-sm font-medium ">Book An Appointment</Link>
                             <Link href="/contact" className="px-3 py-2 rounded-md text-sm font-medium ">International Patients</Link>

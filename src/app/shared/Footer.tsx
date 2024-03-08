@@ -2,7 +2,7 @@
 export default function Footer() {
     return (
         <>
-            <footer className="bg-gray-800 text-white">
+            <footer className=" text-white" style={{ backgroundColor: '#030712' }}>
                 <div className="mx-auto max-w-screen-xl p-4 py-6 lg:py-8">
                     <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 items-start">
                         <div>
@@ -71,12 +71,15 @@ export default function Footer() {
                         <div className="flex flex-col items-center lg:items-start">
                             <h1>Ethio-Tebib</h1>
                             <p className="text-sm font-semibold mb-2">Subscribe To Newsletter</p>
-                            <form className="flex">
-                                <input type="email" placeholder="Your email address" aria-label="Your email address" className="p-2 rounded-l-lg text-gray-800" required />
-                                <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-r-lg">
+                            <form className="flex justify-start">
+                                <input type="email" placeholder="Your email address" aria-label="Your email address"
+                                    className="text-sm rounded-l-lg text-gray-800 border border-r-0 border-gray-300 px-0 py-1" required />
+                                <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white text-sm font-medium px-0 py-1 rounded-r-lg">
                                     Subscribe
                                 </button>
                             </form>
+
+
                             <div>
                                 <h1 className="mt-3 align-middle">Ethio-Tebib Centre</h1>
                                 <ul className="mt-2">
@@ -123,8 +126,6 @@ export default function Footer() {
                                     <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm6.72 1.5h-5.94a4.25 4.25 0 0 0-4.25 4.25v5.94c0 2.35 1.9 4.25 4.25 4.25h5.94a4.25 4.25 0 0 0 4.25-4.25v-5.94a4.25 4.25 0 0 0-4.25-4.25zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm4.72-.75a1.12 1.12 0 1 1 0 2.24 1.12 1.12 0 0 1 0-2.24z" />
                                 </svg>
                             </a>
-                            
-
                         </div>
                     </div>
                 </div>

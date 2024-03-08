@@ -3,6 +3,7 @@ import { SetStateAction, useState } from 'react';
 
 export default function About() {
   
+
     return (
         <div className="flex flex-col items-center justify-center h-screen bg-[#245c6d]" style={{ backgroundImage: "url('/Image/ETHH5.webp')" }}>
             <div className="w-full md:w-1/2 h-auto bg-cover bg-center rounded-lg">

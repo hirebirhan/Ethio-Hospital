@@ -85,22 +85,7 @@ export default function Specialists() {
                                     <p className="transition duration-300">Cardial sciences are one of the most...</p>
                                 </div>
                             </div>
-                            <div
-                                className="border border-gray-300 p-4 rounded-lg transition duration-300 hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 flex flex-col justify-between relative"
-                                style={{
-                                    backgroundImage: 'url("ethiotebib.jpg")',
-                                    backgroundSize: 'cover',
-                                    backgroundPosition: 'center',
-                                    width: '250px',
-                                    height: '250px'
-                                }}
-                            >
-                                <div className="flex flex-col justify-center h-full text-white group hover:text-gray-300">
-                                    <h3 className="text-lg font-semibold mb-2 transition duration-300">Cardial Science</h3>
-                                    <p className="mb-2 transition duration-300">Heart care from the heart</p>
-                                    <p className="transition duration-300">Cardial sciences are one of the most...</p>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>       
