@@ -6,7 +6,6 @@ const Navbar = () => {
         <>
             <div className="bg-[#2B7786] text-white py-2">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-end items-center text-sm">
-                    {/* Links container aligned to the right */}
                     <div className="flex items-center space-x-4">
                         <Link href="/need-help">Need Help?</Link>
                         <Link href="/careers">Careers</Link>
@@ -15,8 +14,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-
-            {/* Main Navbar */}
             <div className="fixed w-full top-0 mt-8 z-50 shadow-lg">
                 <nav className="text-white bg-[#155e75]">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
