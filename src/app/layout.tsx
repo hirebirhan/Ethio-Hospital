@@ -18,6 +18,20 @@ export default function RootLayout({
   return (
     <html lang="en" style={{ height: '100%' }}>
       <head>
+        <title>Welcome to Ethiotebib Hospital</title>
+        <meta name="description" content="Ethiotebib Hospital provides high-quality healthcare services in a compassionate and patient-centered environment." />
+        <meta name="keywords" content="hospital, healthcare, medical services, patient-centered, compassionate" />
+        <meta name="author" content="Ethiotebib Hospital" />
+        <meta name="robots" content="index, follow" />
+        <meta name="og:title" content="Ethiotebib Hospital" />
+        <meta name="og:description" content="Providing high-quality healthcare services in a compassionate and patient-centered environment." />
+        <meta name="og:image" content="https://example.com/hospital-logo.png" />
+        <meta name="og:url" content="https://example.com" />
+        <meta name="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Ethiotebib Hospital" />
+        <meta name="twitter:description" content="Providing high-quality healthcare services in a compassionate and patient-centered environment." />
+        <meta name="twitter:image" content="https://example.com/hospital-logo.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <style>
           {`

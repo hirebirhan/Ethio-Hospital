@@ -11,8 +11,8 @@ export default function WhyChoose() {
     ];
     return (
         <>
-            <div className="flex flex-col items-center justify-center mt-4">
-                <div style={{ backgroundColor: '#245c6d' }} className="p-6 rounded-lg shadow-lg flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center ">
+                <div className="p-6 rounded-lg shadow-lg flex flex-col items-center justify-center bg-[#245c6d]">
                     <div className="md:w-1/2 md:pl-6">
                         <h2 className="text-lg font-semibold text-white">Why Choose Ethio-tebib?</h2>
                         <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac tincidunt sapien. Nulla facilisi. Duis sed lorem eget arcu tristique scelerisque ut sed ligula. Nullam quis urna id mauris ultrices pellentesque. Vestibulum faucibus tellus sit amet sem sollicitudin malesuada.</p>
@@ -25,7 +25,7 @@ export default function WhyChoose() {
                             </Link>
                         </div>
                     </div>
-                <div className="grid grid-cols-3 gap-4 mt-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                         {card.map((card, index) => (
                         <div
                             key={index}

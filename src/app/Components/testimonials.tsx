@@ -14,26 +14,24 @@ export default function Testimonials() {
                 </h2>
                 <div className="grid md:grid-cols-3 gap-8 mt-6">
                     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
-                        <iframe className="w-full" style={{ height: '300px' }} src="https://www.youtube.com/embed/kiyi-C7NQrQ" title="YouTube video" allowFullScreen></iframe>
+                        <iframe className="w-full" style={{ height: '300px' }} src="https://www.youtube.com/embed/S8WXTyQDHO0" title="YouTube video" allowFullScreen></iframe>
                         <div className="p-4">
-                            <p className="text-gray-600">Our patient, Mr. David Rajkumar, \
-                                recently suffered a heart attack and was promptly attended to by Dr.
-                                Dimpu. As a result, Mr. David Rajkumar underwent ....</p></div>
+                            <p className="text-gray-600">Our patient, Mr. David Rajkumar, recently suffered a heart attack and was promptly attended to by Dr. Dimpu. As a result, Mr. David Rajkumar underwent ....</p>
+                        </div>
                     </div>
                     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
-                        <iframe className="w-full" style={{ height: '300px' }} src="https://www.youtube.com/embed/kK99NlPe0-0" title="YouTube video" allowFullScreen></iframe>
+                        <iframe className="w-full" style={{ height: '300px' }} src="https://www.youtube.com/embed/YsWSpp_c4xc" title="YouTube video" allowFullScreen></iframe>
                         <div className="p-4">
                             <p className="text-gray-600">Another short description related to the video content.</p>
                         </div>
                     </div>
-
                     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
                         <iframe className="w-full" style={{ height: '300px' }} src="https://www.youtube.com/embed/4Lu2NO8d7hc" title="YouTube video" allowFullScreen></iframe>
                         <div className="p-4">
                             <p className="text-gray-600">More information or description here.</p>
                         </div>
                     </div>
-                </div>
+                </div>      
             </div>
         </div>
     );

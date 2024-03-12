@@ -11,20 +11,25 @@ export default function WeTreat() {
     ];
 
     return (
-        <div className="p-6 rounded-lg shadow-lg" style={{ backgroundColor: '#f1f5f9' }}>
-            <div className="flex flex-col items-center mb-4">
-                <h2 className="text-lg font-semibold">We’ll Treat You Well</h2>
+        <div className="p-6 rounded-lg shadow-lg bg-[#dcfce7]">
+            <div className="flex flex-col items-center mb-4 gap-4">
+                <h2 className="text-lg font-semibold text-primary">We’ll Treat You Well</h2>
                 <p style={{ minHeight: '6rem' }} className="flex flex-grow justify-center items-center text-center">
-                    At Ethio-Tebib, we give utmost importance to provide care, attention, and high-quality medical services to our patients. <br />
+                    At Ethio-Tebib, we give utmost importance to provide care, attention, and high-quality medical services to our patients.<br />
                     This promise to patients, employees, and society at large is ingrained in the heart of each Asterian and is what inspires us to serve, innovate, and grow.
                 </p>
-                <button className="bg-white text-gray-800 font-bold py-4 px-9 rounded transition-colors duration-300 ease-in-out hover:bg-[#328090] hover:text-white border border-blue-500 flex items-center justify-center">
+                <button className="bg-white text-gray-800 font-bold py-4 px-9 rounded transition-colors border-primary border duration-300 ease-in-out hover:bg-primary hover:text-white flex items-center justify-center">
                     <Link href="/">KNOW MORE</Link>
-                    <span className="ml-2">&#x279C;</span> 
+                    <span className="ml-2">&#x279C;</span>
                 </button>
             </div>
-            <Image src="/ETHH4.jpeg" alt="Our Services" width={12} height={12} layout="responsive" />
-            <div className="flex justify-center items-center mt-4">
+
+            {/* Image component positioned here and styled for x-direction zoom */}
+            <div className="flex justify-center my-4">
+                <Image src="/et4.webp" alt="Ethio-Tebib" layout="responsive" width={500} height={300} objectFit="cover" objectPosition="center" />
+            </div>
+
+            <div className="grid md:flex grid-cols-1 justify-center items-center mt-4">
                 {infoBlocks.map((block, index) => (
                     <div key={block.id} className="text-center p-4 relative">
                         {index > 0 && (
